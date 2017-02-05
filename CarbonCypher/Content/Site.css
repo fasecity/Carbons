@@ -29,3 +29,129 @@ textarea {
         padding: 0;
     }
 }
+/*//////////overides*/
+.navbar-brand {
+    float: left;
+    padding: 0px 0px;
+    font-size: 25px;
+    line-height: 20px;
+    font-family: 'Raleway', 'Blackadder ITC';
+    font-weight:bolder;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fffefe;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+}
+/*image form carbon navbar*/
+img {
+    vertical-align: -webkit-baseline-middle;
+}
+.navbar-inverse .navbar-brand {
+    color: #f9f8f8;
+}
+.navbar-inverse {
+    /*background-color: #032a31;*/
+    border-color: #080808;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+10,0e4922+48,b9c600+100,7db9e8+100 */
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #000000 10%, #0e4922 48%, #b9c600 100%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #000000 10%,#0e4922 48%,#b9c600 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #000000 10%,#0e4922 48%,#b9c600 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 30px;
+}
+#stage {
+    /*background-image: url('../assets/pexels-photo-landscape.jpg');*/
+    /*background-image: url('../assets/pexels-photo-grass.jpeg');*/
+    /*background-image: url('../assets/nature-field-forest-agriculture.jpg');*/
+    background-image: url('../assets/pexels-photo-166158.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#stageService {
+    /*background-image: url('../assets/pexels-photo-landscape.jpg');*/
+    /*background-image: url('../assets/pexels-photo-grass.jpeg');*/
+    background-image: url('../assets/pexels-photo-230469.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#stage-caption{
+    font-size:17px;
+    font-weight:200;
+   padding-top:150px;
+    
+    max-width:60rem;
+    /*line-height: 73px;*/
+    margin:0 auto;
+    text-align:center;
+}
+#stage-caption h1{
+    color: rgba(72, 242, 100, 0.85);
+
+
+    font-weight:bold;
+     font-size: 64px;
+    /*line-height: 73px;*/
+    text-shadow: none;
+
+}
+.feature-content{
+    padding:8rem 0;
+    overflow:hidden;
+
+}
+.feature-content img {
+    margin-bottom:-6rem;
+}
+/*//feature 2 aand after*/
+.feature-two{
+    background-color:  rgb(7, 174, 155);
+    color:black;
+}
+.feature-dark{
+    background-color:#8f9092;
+    color:white;
+      margin:0 auto;
+    text-align:center;
+        background-color:rgba(63, 178, 64, 0.76);
+}
+@media screen and (min-width:991px){
+    .feature-content{
+        display:flex;
+        align-items:center;
+    }
+
+}
+.feature-enter{
+   text-align:center;
+   align-items:center;
+}
+.feature-pilar{
+   text-align:center;
+   align-items:center;
+}
+.feature-content1 {
+    padding: 0rem 0;
+    overflow: hidden;
+}
